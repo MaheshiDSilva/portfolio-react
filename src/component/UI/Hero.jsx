@@ -9,8 +9,8 @@ export const Hero = () => {
                     {/*-----------------Hero left content-----------------*/}
                     <div className="w-full md:basis-1/2">
                         <h5 data-aos="fade-right" data-aos-duration="1500"
-                            className="text-headingColor font-[600] text-[16px]">Hello Welcome</h5>
-                        <h1 data-aos="fade-up" data-aos-duration="1500" className="text-headingColor font-[800]
+                            className="text-headingColor font-[600] text-[16px]">Hello, Welcome</h5>
+                        <h1 data-aos="fade-up" data-aos-duration="1500" className="text-purple-700 font-[800]
                         text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5">I'm Maheshi De Silva <br/>Software
                             Engineer</h1>
                         <div data-aos="fade-up" data-aos-duration="1800" data-aos-delay="200"
