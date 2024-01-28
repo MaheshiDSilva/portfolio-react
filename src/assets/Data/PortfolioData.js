@@ -14,63 +14,72 @@ import Assignment13 from "../image/assignment13.png"
 import Assignment14 from "../image/assignment14.png"
 import Assignment15 from "../image/assignment15.png"
 import Assignment16 from "../image/assignment16.png"
+import Battle_Field from "../image/battle field.png"
+import Chat_application from "../image/chat application.png"
+import Green_Life from "../image/green life.png"
+import Portfolio from "../image/portfolio.png"
+import Hostel_Managemnt from "../image/hostel_m.png"
+import Blog from "../image/blog-app.png"
+import Spotify from "../image/spotify.png"
+import Game from "../image/2d game.png"
+import Car from "../image/car rental.png"
 
 const portfolios = [
     {
         id: "01",
         imgUrl: Assignment1,
-        category: "Web Design",
-        title: "Finance Technology Website",
+        category: "Assignment",
+        title: "Html position",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+        technologies: ["HTML", "CSS"],
         siteUrl: "#",
     },
     {
         id: "02",
         imgUrl: Assignment2,
-        category: "Ux",
-        title: "Video Conference Website",
+        category: "Assignment",
+        title: "HTML assignment",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+        technologies: ["HTML", "CSS", "Java Script"],
         siteUrl: "#",
     },
     {
         id: "03",
         imgUrl: Assignment3,
-        category: "Ux",
-        title: "Multimedia Sharing Website",
+        category: "Assignment",
+        title: "CSS position",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+        technologies: ["HTML", "CSS"],
         siteUrl: "#",
     },
     {
         id: "04",
         imgUrl: Assignment4,
-        category: "Web Design",
-        title: "Landing Page",
+        category: "Assignment",
+        title: "Nav Bar position",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+        technologies: ["HTML", "CSS"],
         siteUrl: "#",
     },
     {
         id: "05",
         imgUrl: Assignment5,
-        category: "Web Design",
-        title: "Landing Page",
+        category: "Assignment",
+        title: "HTML Assignment",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+        technologies: ["HTML", "CSS"],
         siteUrl: "#",
     },
 
     {
         id: "06",
         imgUrl: Assignment6,
-        category: "Ux",
+        category: "Assignment",
         title: "Online Therapy Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -80,7 +89,7 @@ const portfolios = [
     {
         id: "07",
         imgUrl: Assignment7,
-        category: "Web Design",
+        category: "Assignment",
         title: "Appointment Booking Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -90,7 +99,7 @@ const portfolios = [
     {
         id: "08",
         imgUrl: Assignment8,
-        category: "Web Design",
+        category: "Assignment",
         title: "Finance Technology Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -100,7 +109,7 @@ const portfolios = [
     {
         id: "09",
         imgUrl: Assignment9,
-        category: "Ux",
+        category: "Assignment",
         title: "Video Conference Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -110,7 +119,7 @@ const portfolios = [
     {
         id: "10",
         imgUrl: Assignment10,
-        category: "Ux",
+        category: "Assignment",
         title: "File Sharing Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -120,7 +129,7 @@ const portfolios = [
     {
         id: "11",
         imgUrl: Assignment11,
-        category: "Web Design",
+        category: "Assignment",
         title: "Landing Page",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -130,7 +139,7 @@ const portfolios = [
     {
         id: "12",
         imgUrl: Assignment12,
-        category: "Web Design",
+        category: "Assignment",
         title: "Landing Page",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -140,7 +149,7 @@ const portfolios = [
     {
         id: "13",
         imgUrl: Assignment13,
-        category: "Web Design",
+        category: "Assignment",
         title: "Online Therapy Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -150,7 +159,7 @@ const portfolios = [
     {
         id: "14",
         imgUrl: Assignment14,
-        category: "ux",
+        category: "Assignment",
         title: "Appointment Booking Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -160,7 +169,7 @@ const portfolios = [
     {
         id: "15",
         imgUrl: Assignment15,
-        category: "ux",
+        category: "Assignment",
         title: "Appointment Booking Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -170,13 +179,112 @@ const portfolios = [
     {
         id: "16",
         imgUrl: Assignment16,
-        category: "ux",
+        category: "Assignment",
         title: "Appointment Booking Website",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
         technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
         siteUrl: "#",
     },
+    {
+        id: "17",
+        imgUrl: Battle_Field,
+        category: "Projects",
+        title: "Battle Field game",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["oop", "Java"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "17",
+        imgUrl: Chat_application,
+        category: "Projects",
+        title: "Chat Application",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Java FX", "Java socket programming"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "18",
+        imgUrl: Green_Life,
+        category: "Projects",
+        title: "Green Life Veggie & Fruit System",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Java", "Java FX","MySQl"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "19",
+        imgUrl: Portfolio,
+        category: "Projects",
+        title: "Portfolio",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["HTML", "CSS","JS"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "20",
+        imgUrl: Hostel_Managemnt,
+        category: "Projects",
+        title: "Hostel management system",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Java", "Java FX","Hibernate","MySQL"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "21",
+        imgUrl: Blog,
+        category: "Projects",
+        title: "Blog Application",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Mongo DB", "React","Express JS","Node JS"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "22",
+        imgUrl: Spotify,
+        category: "Projects",
+        title: "Spotify UI clone",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["HTML", "CSS"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "23",
+        imgUrl: Game,
+        category: "Projects",
+        title: "Java Script 2D game",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["HTML", "CSS","JS"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "24",
+        imgUrl: Car,
+        category: "Projects",
+        title: "Car rental system",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Bootstrap", "JQuery","Spring web MVC"],
+        siteUrl: "#",
+    },
 ];
 
 export default portfolios;
+

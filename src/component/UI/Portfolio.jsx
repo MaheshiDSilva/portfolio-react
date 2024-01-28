@@ -22,12 +22,12 @@ export const Portfolio = () => {
         if (selectTab=="all"){
             setPortfolio(Data)
         }
-        if (selectTab=="web-design"){
-            const filteredData=Data.filter(item=>item.category=="Web Design")
+        if (selectTab=="assignment"){
+            const filteredData=Data.filter(item=>item.category=="Assignment")
             setPortfolio(filteredData)
         }
-        if (selectTab=="ui-ux"){
-            const filteredData=Data.filter(item=>item.category=="Ux")
+        if (selectTab=="projects"){
+            const filteredData=Data.filter(item=>item.category=="Projects")
             setPortfolio(filteredData)
         }
     },[selectTab])
@@ -44,11 +44,11 @@ export const Portfolio = () => {
                         <button onClick={()=>setSelectTab("all")} className="text-smallTextColor border border-solid border-smallTextColor px-4 py-2
                         rounded-[8px]">All
                         </button>
-                        <button onClick={()=>setSelectTab("web-design")} className="text-smallTextColor border border-solid border-smallTextColor px-4 py-2
-                        rounded-[8px]">Web Design
+                        <button onClick={()=>setSelectTab("assignment")} className="text-smallTextColor border border-solid border-smallTextColor px-4 py-2
+                        rounded-[8px]">Assignments
                         </button>
-                        <button onClick={()=>setSelectTab("ui-ux")} className="text-smallTextColor border border-solid border-smallTextColor px-4 py-2
-                        rounded-[8px]">UI/UX Design
+                        <button onClick={()=>setSelectTab("projects")} className="text-smallTextColor border border-solid border-smallTextColor px-4 py-2
+                        rounded-[8px]">Projects
                         </button>
                     </div>
                 </div>

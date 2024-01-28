@@ -6,9 +6,9 @@ export const Services = () => {
             <div className="container lg:pt-5">
                 <div className="text-center">
                     <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">What do I help</h2>
-                    <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores ea earum iste maxime
-                        officia praesentium quos, similique ullam vitae. Ab culpa ex facere minima odit, perspiciatis
-                        quaerat quam rerum!</p>
+                    {/*<p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores ea earum iste maxime*/}
+                    {/*    officia praesentium quos, similique ullam vitae. Ab culpa ex facere minima odit, perspiciatis*/}
+                    {/*    quaerat quam rerum!</p>*/}
                 </div>
                 <div className="flex flex-col justify-center sm:py-12">
                     <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">

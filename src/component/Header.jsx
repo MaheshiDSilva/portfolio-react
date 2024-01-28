@@ -3,6 +3,7 @@ import React, {useRef, useEffect} from "react";
 export const Header = () => {
 
     const headerRef = useRef(null);
+    const menuRef = useRef(null);
     const stickyHeaderFunction = () => {
         window.addEventListener('scroll', () => {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -28,6 +29,8 @@ export const Header = () => {
         });
     };
 
+    const toggleMenu=()=>menuRef.current.classList.toggle("show_menu");
+
     return (
         <header ref={headerRef} className="w-full h-[80px] leading-[80px] flex items-center">
             <div className="container">
@@ -43,7 +46,7 @@ export const Header = () => {
 
                     {/*------------------logo end---------------------*/}
                     {/*------------------menu start---------------------*/}
-                    <div className="menu">
+                    <div className="menu" ref={menuRef} onClick={toggleMenu}>
                         <ul className="flex items-center gap-10">
                             <li><a onClick={handleClick} className="text-smallTextColor font-[600]" href="#about">About</a></li>
                             <li><a onClick={handleClick} className="text-smallTextColor font-[600]" href="#services">Services</a></li>
@@ -57,7 +60,7 @@ export const Header = () => {
                         hover:font-[500] ease-in duration-300"><i class="ri-send-plane-line"></i>Let's Talk
                         </button>
 
-                        <span className="text-2xl text-smallTextColor md:hidden cursor-pointer"><i
+                        <span onClick={toggleMenu} className="text-2xl text-smallTextColor md:hidden cursor-pointer"><i
                             className="ri-menu-line"></i></span>
                     </div>
                     {/*--------------------menu end-------------------*/}

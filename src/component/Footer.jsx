@@ -17,21 +17,19 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div className="w-full sm:w-1/2">
-                        <p className="text-gray-300 leading-7 mt-4 sm:mt-0">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Dolor incidunt officiis quibusdam
-                            sapiente sint! Assumenda, cumque, dicta eligendi est ex id modi nemo non numquam qui saepe
-                            tenetur veniam veritatis!</p>
+                        <p className="text-gray-300 leading-7 mt-4 sm:mt-0">if you need a service or help from me or want to give feedback,
+                            please leave a comment or connect with me below links.</p>
                         <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
                             <span className="text-gray-300 font-[500] text-[18px]">Follow me:</span>
 
                             <span
                                 className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                                <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                                <a href="https://github.com/MaheshiDSilva" className="text-gray-300 font-[500] text-[18px]">
                                     <i className="ri-github-line"></i></a>
                             </span>
                             <span
                                 className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                                <a href="#linkedin" className="text-gray-300 font-[500] text-[18px]">
+                                <a href="https://www.linkedin.com/in/maheshi-de-silva-9b8787264/" className="text-gray-300 font-[500] text-[18px]">
                                     <i className="ri-linkedin-line"></i></a>
                             </span>
                             <span
@@ -71,7 +69,7 @@ export const Footer = () => {
                             </div>
                         </div>
                         <div>
-                            <p className="text-gray-400 text-[14px]"> Developed by Maheshi - Copyright &copy; 2023 - All rights reserved.</p>
+                            <p className="text-gray-400 text-[14px]"> Developed by Maheshi | &copy; 2023 - All rights reserved.</p>
                         </div>
                     </div>
                 </div>

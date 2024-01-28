@@ -1,5 +1,7 @@
 import React from "react";
-import HeroImage from "../../assets/image/HeroImage.jpg"
+import HeroImage from "../../assets/image/hero.png"
+import CV from "../../assets/image/Maheshi De Silva-CV/1.jpg"
+// import CV from "../../assets/image/Maheshi De Silva-CV/2.jpg"
 
 export const Hero = () => {
     return (
@@ -21,24 +23,27 @@ export const Hero = () => {
                                     className="ri-mail-line"></i>Hire me
                                 </button>
                             </a>
-                            <a href="#portfolio" className="text-smallTextColor font-[600] text-[16px] border border-solid
+                            <a href={CV} download="CV.png" className="text-smallTextColor font-[600] text-[16px] border border-solid
                             border-smallTextColor py-2 px-4 rounded-[8px] hover:bg-primaryColor hover:text-white">Download
                                 CV</a>
                         </div>
                         <p data-aos="fade-left" data-aos-duration="1500" className="flex gap-2 text-headingColor font-[500]
                              text-[15px] leading-7 sm:pl-14 sm:pr-10 mt-14">
                             <span><i className="ri-apps-2-line"></i></span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque dignissimos dolor
-                            eos harum in incidunt iste laboriosam laudantium minus nemo veniam!
+                            I like to try different things with my creativity and ability. I have social skills including
+                            listening,
+                            respecting personal space, leadership skills, cooperation, empathy and using manners. Also,
+                            I’m hard worker and fast learner. And also I'm very fond of web development, UI designing
+                            and developing. My passion is make great things.
                         </p>
                         <div className="flex items-center gap-9 mt-14">
                             <span className="text-smallTextColor text-[15px] font-[600]">Connect with me :</span>
                             <span>
-                                <a href="#linkedin" className="text-smallTextColor text-[24px] font-[600]"><i
+                                <a href="https://www.linkedin.com/in/maheshi-de-silva-9b8787264/" className="text-smallTextColor text-[24px] font-[600]"><i
                                     className="ri-linkedin-box-line"></i></a>
                             </span>
                             <span>
-                                <a href="#github" className="text-smallTextColor text-[24px] font-[600]"><i
+                                <a href="https://github.com/MaheshiDSilva" className="text-smallTextColor text-[24px] font-[600]"><i
                                     className="ri-github-fill"></i></a>
                             </span>
                             <span>
@@ -46,7 +51,7 @@ export const Hero = () => {
                                     className="ri-whatsapp-line"></i></a>
                             </span>
                             <span>
-                                <a href="#whatsapp" className="text-smallTextColor text-[24px] font-[600]"><i
+                                <a href="#instagram" className="text-smallTextColor text-[24px] font-[600]"><i
                                     className="ri-instagram-line"></i></a>
                             </span>
                         </div>
@@ -54,7 +59,7 @@ export const Hero = () => {
                     {/*-----------------Hero left end-----------------*/}
                     {/*-----------------Hero image-----------------*/}
                     <div className="basis-1/3 mt-10 sm:mt-0">
-                        <figure className="flex items-center justify-center">
+                        <figure className="flex items-center justify-center ">
                             <img src={HeroImage} alt=""/>
                         </figure>
                     </div>
