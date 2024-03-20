@@ -47,19 +47,20 @@ const portfolios = [
     },
     {
         id: "03",
-        imgUrl: Assignment3,
+        imgUrl: Assignment4,
         category: "Assignment",
-        title: "CSS position",
+        title: "Nav Bar position",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
         technologies: ["HTML", "CSS"],
         siteUrl: "#",
     },
+
     {
         id: "04",
-        imgUrl: Assignment4,
+        imgUrl: Assignment3,
         category: "Assignment",
-        title: "Nav Bar position",
+        title: "CSS position",
         description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
         technologies: ["HTML", "CSS"],
@@ -198,17 +199,6 @@ const portfolios = [
     },
 
     {
-        id: "17",
-        imgUrl: Chat_application,
-        category: "Projects",
-        title: "Chat Application",
-        description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["Java FX", "Java socket programming"],
-        siteUrl: "#",
-    },
-
-    {
         id: "18",
         imgUrl: Green_Life,
         category: "Projects",
@@ -219,8 +209,21 @@ const portfolios = [
         siteUrl: "#",
     },
 
+
     {
         id: "19",
+        imgUrl: Chat_application,
+        category: "Projects",
+        title: "Chat Application",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Java FX", "Java socket programming"],
+        siteUrl: "#",
+    },
+
+
+    {
+        id: "20",
         imgUrl: Portfolio,
         category: "Projects",
         title: "Portfolio",
@@ -230,16 +233,6 @@ const portfolios = [
         siteUrl: "#",
     },
 
-    {
-        id: "20",
-        imgUrl: Hostel_Managemnt,
-        category: "Projects",
-        title: "Hostel management system",
-        description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-        technologies: ["Java", "Java FX","Hibernate","MySQL"],
-        siteUrl: "#",
-    },
 
     {
         id: "21",
@@ -276,6 +269,17 @@ const portfolios = [
 
     {
         id: "24",
+        imgUrl: Hostel_Managemnt,
+        category: "Projects",
+        title: "Hostel management system",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        technologies: ["Java", "Java FX","Hibernate","MySQL"],
+        siteUrl: "#",
+    },
+
+    {
+        id: "25",
         imgUrl: Car,
         category: "Projects",
         title: "Car rental system",

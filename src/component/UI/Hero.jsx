@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../../assets/image/hero.png"
+import HeroImage from "../../assets/image/me.png"
 import CV from "../../assets/image/Maheshi De Silva-CV/1.jpg"
 // import CV from "../../assets/image/Maheshi De Silva-CV/2.jpg"
 
@@ -58,9 +58,9 @@ export const Hero = () => {
                     </div>
                     {/*-----------------Hero left end-----------------*/}
                     {/*-----------------Hero image-----------------*/}
-                    <div className="basis-1/3 mt-10 sm:mt-0">
+                    <div className="basis-5/12 mt-10 sm:mt-0">
                         <figure className="flex items-center justify-center ">
-                            <img src={HeroImage} alt=""/>
+                            <img src={HeroImage} alt="" />
                         </figure>
                     </div>
                     {/*-----------------Hero image end-----------------*/}
